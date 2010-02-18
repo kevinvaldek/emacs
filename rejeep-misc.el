@@ -112,8 +112,8 @@
 ;; Use the Twilight theme.
 (require 'color-theme)
 (color-theme-initialize)
-(load-file "~/.emacs.d/packages/color-theme-twilight/color-theme-twilight.el")
-(color-theme-twilight)
+(require 'color-theme-hober2)
+(color-theme-hober2)
 
 ;; Automatic and manual symbol highlighting.
 (setq highlight-symbol-idle-delay 0.5)
