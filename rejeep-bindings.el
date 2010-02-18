@@ -42,6 +42,10 @@
 ;; Toggle ecb windows
 (global-set-key (kbd "M-§") 'ecb-toggle-ecb-windows)
 
+;; Increase and decrease font size.
+(global-set-key (kbd "C-+") 'text-scale-increase)
+(global-set-key (kbd "C--") 'text-scale-decrease)
+
 ;; So that Emacs never is quit by mistake.
 (global-set-key (kbd "C-x C-c")
                 (lambda ()
