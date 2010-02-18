@@ -39,6 +39,9 @@
 ;; Duplicates the current line.
 (global-set-key (kbd "C-c d") 'duplicate-current-line)
 
+;; Toggle ecb windows
+(global-set-key (kbd "M-§") 'ecb-toggle-ecb-windows)
+
 ;; So that Emacs never is quit by mistake.
 (global-set-key (kbd "C-x C-c")
                 (lambda ()
