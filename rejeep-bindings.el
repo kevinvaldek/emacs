@@ -39,9 +39,6 @@
 ;; Duplicates the current line.
 (global-set-key (kbd "C-c d") 'duplicate-current-line)
 
-;; Toggle ecb windows
-(global-set-key (kbd "M-§") 'ecb-toggle-ecb-windows)
-
 ;; Increase and decrease font size.
 (global-set-key (kbd "C-+") 'text-scale-increase)
 (global-set-key (kbd "C--") 'text-scale-decrease)

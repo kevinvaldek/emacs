@@ -30,8 +30,4 @@
 (add-hook 'yaml-mode-hook 'flyspell-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
-;; ECB
-(ecb-activate)
-(ecb-hide-ecb-windows)
-
 (provide 'rejeep-programming)
