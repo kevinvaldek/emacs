@@ -16,6 +16,3 @@
 [submodule "packages/rinari"]
 	path = packages/rinari
 	url = git://github.com/rejeep/rinari.git
-[submodule "snippets"]
-	path = snippets
-	url = git://github.com/rejeep/yasnippets.git
