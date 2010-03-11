@@ -16,3 +16,6 @@
 [submodule "packages/rinari"]
 	path = packages/rinari
 	url = git://github.com/rejeep/rinari.git
+[submodule "packages/yasnippet"]
+	path = packages/yasnippet
+	url = git://github.com/emacsmirror/yasnippet.git
